@@ -19,6 +19,7 @@ public class ShippingAddressEntity {
     private String state;
     private String zipCode;
     private String addrType;
+    private String deleteSw;
 
     @ManyToOne
     @JoinColumn(name = "customer_id")
