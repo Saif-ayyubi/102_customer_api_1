@@ -12,7 +12,7 @@ public class ShippingAddressEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long addrId;
+    private Integer addrId;
     private String hno;
     private String street;
     private String city;
